@@ -1,0 +1,43 @@
+/** CSS STYLE **/
+:root {
+    --color_white: #fff;
+    --color_white2: #d7ccc0;
+    --color_light: #f5f4f0;
+    --color_main: #fe8a02;
+    --color_maindark: #42413c;
+    --color_dark: #2a2626;
+    --color_dark2: #908d8b;
+    --color_brown: #b09a81;
+    --color_blue: #1085c5;
+}
+
+html{
+    line-height: 1.6;
+    color: var(--color_dark);
+}
+
+.heading{
+    line-height: 1.2;
+}
+
+.heading_h1{
+    font-size: 4.5rem;
+}
+
+.heading_h2{
+    font-size: 3.75rem;
+}
+
+.heading_h3{
+    font-size: 2.125rem;
+}
+
+.container{
+    max-width: 1130px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 100px 0;
+}
