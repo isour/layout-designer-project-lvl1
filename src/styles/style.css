@@ -3,25 +3,35 @@
   --color_white: #fff;
   --color_white2: #d7ccc0;
   --color_light: #f5f4f0;
+  --color_orange: #fe8a02;
   --color_main: #fe8a02;
   --color_maindark: #42413c;
   --color_dark: #2a2626;
   --color_dark2: #908d8b;
   --color_brown: #b09a81;
   --color_blue: #1085c5;
+  --font_main: 'Open Sans', arial, 'Helvetica Neue', helvetica, sans-serif;
+  --font_accent: 'Neucha', 'Papyrus', fantasy;
 }
 
 html {
   color: var(--color_dark);
+  font-family: var(--font_main);
   line-height: 1.6;
 }
 
 .heading {
+  font-family: var(--font_accent);
   line-height: 1.2;
+}
+
+.heading__orange {
+  color: var(--color_orange);
 }
 
 .heading_h1 {
   font-size: 4.5rem;
+  letter-spacing: -0.02em;
 }
 
 .heading_h2 {
@@ -32,6 +42,11 @@ html {
   font-size: 2.125rem;
 }
 
+.page {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1130px;
   margin: 0 auto;
@@ -39,5 +54,88 @@ html {
 }
 
 .section {
+  position: relative;
   padding: 100px 0;
+  overflow: hidden;
+}
+
+.section_distortion {
+  padding-top: 34px;
+  background-color: #f5f4f0;
+}
+
+.section_distortion::before {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  opacity: 0.06;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  content: '';
+}
+
+.distortion {
+  position: relative;
+  z-index: 2;
+}
+
+.distortion__header {
+  position: relative;
+  z-index: 2;
+  min-height: 525px;
+}
+
+.distortion__media {
+  position: absolute;
+  z-index: 1;
+  right: -248px;
+  top: -40px;
+}
+
+.distortion__content {
+  margin-bottom: -63px;
+}
+
+.distortion__img {
+  height: 525px;
+  width: auto;
+}
+
+.distortion__footer {
+  position: relative;
+  z-index: 2;
+}
+
+.distortion__text {
+  column-count: 2;
+  column-gap: 8px;
+  color: var(--color_dark);
+  line-height: 1.6;
+  margin-bottom: 27px;
+}
+
+.distortion__text p {
+  break-inside: avoid;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.distortion__action {
+  padding-left: calc(50% + 5px);
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--color_orange);
+  display: inline-block;
+  vertical-align: middle;
+  padding: 12px 24px;
+  color: #fff;
+  text-decoration: none;
 }
