@@ -274,6 +274,7 @@ html {
 }
 
 .text-block__content {
+  flex: 1 1 auto;
   padding-top: 2px;
   padding-left: 30px;
 }
@@ -340,4 +341,77 @@ html {
 .text-block_white .text-block__how {
   background-color: #fff;
   color: var(--color_brown);
+}
+
+.subscribe {
+  background-color: var(--color_maindark);
+  color: #fff;
+  padding: 41px 55px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__header {
+  flex: 0 0 50%;
+}
+
+.subscribe__content {
+  flex: 0 0 50%;
+  padding-left: 16px;
+}
+
+.subscribe__label {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 9px;
+  display: block;
+}
+
+.subscribe__row {
+  display: flex;
+}
+
+.subscribe__input {
+  flex: 1 1 auto;
+  font-size: 13px;
+  border: none;
+  padding: 17px 15px;
+  line-height: 1.23;
+}
+
+.subscribe__input::placeholder {
+  opacity: 0.2;
+  color: #757575;
+  font-weight: normal;
+}
+
+.subscribe__button {
+  cursor: pointer;
+  background-color: var(--color_orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  flex: 0 0 62px;
+  padding: 0;
+}
+
+.subscribe__button::before {
+  content: '';
+  display: block;
+  background-image: url('../images/send.svg');
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.subscribe__description {
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 3px;
+}
+
+.subscribe__link {
+  color: inherit;
 }
