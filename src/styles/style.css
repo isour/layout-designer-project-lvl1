@@ -45,6 +45,10 @@ html {
   color: var(--color_orange);
 }
 
+.heading__orange + .heading__black {
+  margin-top: 5px;
+}
+
 .heading__white {
   display: block;
   color: #fff;
@@ -52,7 +56,6 @@ html {
 
 .heading_h1 {
   font-size: 4.5rem;
-  letter-spacing: -0.02em;
 }
 
 .heading_h2 {
@@ -93,6 +96,7 @@ html {
 
 .section_distortion {
   background-color: #f5f4f0;
+  padding-top: 93px;
 }
 
 .section_bg {
@@ -154,12 +158,12 @@ html {
 .distortion__media {
   position: absolute;
   z-index: 1;
-  right: -248px;
+  right: -268px;
   top: -40px;
 }
 
 .distortion__content {
-  margin-bottom: -63px;
+  margin-bottom: -62px;
 }
 
 .distortion__img {
@@ -174,7 +178,7 @@ html {
 
 .distortion__text {
   column-count: 2;
-  column-gap: 8px;
+  column-gap: 29px;
   color: var(--color_dark);
   line-height: 1.6;
   margin-bottom: 27px;
@@ -187,7 +191,7 @@ html {
 }
 
 .distortion__action {
-  padding-left: calc(50% + 5px);
+  padding-left: calc(50% + 15px);
 }
 
 .button {
