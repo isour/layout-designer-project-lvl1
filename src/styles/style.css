@@ -94,15 +94,16 @@ html {
   overflow: hidden;
 }
 
-.section_distortion {
-  background-color: #f5f4f0;
-  padding-top: 93px;
-}
-
 .section_bg {
   background-color: #f5f4f0;
   padding-top: 98px;
   padding-bottom: 83px;
+}
+
+.section_distortion {
+  background-color: #f5f4f0;
+  padding-top: 94px;
+  padding-bottom: 98px;
 }
 
 .section_bg::before {
@@ -117,6 +118,7 @@ html {
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
+  background-size: cover;
   content: '';
 }
 
