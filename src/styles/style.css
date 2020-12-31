@@ -36,11 +36,17 @@ html {
   font-weight: normal;
 }
 
+.heading__black {
+  display: block;
+}
+
 .heading__orange {
+  display: block;
   color: var(--color_orange);
 }
 
 .heading__white {
+  display: block;
   color: #fff;
 }
 
@@ -76,6 +82,7 @@ html {
 .container {
   width: 1140px;
   margin: 0 auto;
+  padding: 0 14px;
 }
 
 .section {
