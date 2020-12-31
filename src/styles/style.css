@@ -74,14 +74,13 @@ html {
 }
 
 .container {
-  max-width: 1130px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 .section {
   position: relative;
-  padding: 100px 0;
+  padding: 100px 10px;
   overflow: hidden;
 }
 
