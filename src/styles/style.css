@@ -118,7 +118,7 @@ html {
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: cover;
+  /* background-size: cover; */
   content: '';
 }
 
