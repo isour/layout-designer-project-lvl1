@@ -325,7 +325,7 @@ html {
 }
 
 .text-block_white .text-block__pretitle {
-  color: var(--color_light);
+  color: var(--color_white2);
 }
 
 .text-block_white .text-block__description {
