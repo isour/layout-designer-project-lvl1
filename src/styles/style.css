@@ -126,6 +126,10 @@ html {
   padding-bottom: 80px;
 }
 
+.section_subscribe {
+  padding-bottom: 78px;
+}
+
 .distortion {
   position: relative;
   z-index: 2;
@@ -414,4 +418,23 @@ html {
 
 .subscribe__link {
   color: inherit;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-bottom: 110px;
+}
+
+.footer__copyright {
+  margin-bottom: 16px;
+}
+
+.footer__based {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  color: var(--color_blue);
 }
