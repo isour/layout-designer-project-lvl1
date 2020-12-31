@@ -45,10 +45,6 @@ html {
   color: var(--color_orange);
 }
 
-.heading__orange + .heading__black {
-  margin-top: 5px;
-}
-
 .heading__white {
   display: block;
   color: #fff;
@@ -102,7 +98,7 @@ html {
 
 .section_distortion {
   background-color: #f5f4f0;
-  padding-top: 94px;
+  padding-top: 100px;
   padding-bottom: 98px;
 }
 
@@ -161,12 +157,12 @@ html {
 .distortion__media {
   position: absolute;
   z-index: 1;
-  right: -268px;
-  top: -40px;
+  right: -269px;
+  top: -45px;
 }
 
 .distortion__content {
-  margin-bottom: -62px;
+  margin-bottom: -67px;
 }
 
 .distortion__img {
