@@ -177,11 +177,18 @@ html {
 }
 
 .distortion__text {
-  column-count: 2;
-  column-gap: 29px;
+  display: flex;
   color: var(--color_dark);
   line-height: 1.6;
   margin-bottom: 27px;
+}
+
+.distortion__col {
+  flex: 0 0 50%;
+}
+
+.distortion__col + .distortion__col {
+  padding-left: 14px;
 }
 
 .distortion__text p {
