@@ -99,7 +99,7 @@ html {
 .section_distortion {
   background-color: #f5f4f0;
   padding-top: 100px;
-  padding-bottom: 98px;
+  padding-bottom: 100px;
 }
 
 .section_bg::before {
@@ -110,12 +110,10 @@ html {
   bottom: 0;
   left: 0;
   display: block;
-  opacity: 0.06;
+  opacity: 0.09;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
-
-  /* background-size: cover; */
   content: '';
 }
 
@@ -157,7 +155,7 @@ html {
 .distortion__media {
   position: absolute;
   z-index: 1;
-  right: -269px;
+  right: -270px;
   top: -45px;
 }
 
@@ -179,7 +177,7 @@ html {
   display: flex;
   color: var(--color_dark);
   line-height: 1.6;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 }
 
 .distortion__col {
@@ -193,11 +191,11 @@ html {
 .distortion__text p {
   break-inside: avoid;
   margin: 0;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .distortion__action {
-  padding-left: calc(50% + 15px);
+  padding-left: calc(50% + 14px);
 }
 
 .button {
