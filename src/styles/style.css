@@ -85,14 +85,13 @@ html {
   overflow: hidden;
 }
 
-.section_distortion,
-.section_effect {
-  padding-top: 95px;
+.section_bg {
   background-color: #f5f4f0;
+  padding-top: 98px;
+  padding-bottom: 83px;
 }
 
-.section_distortion::before,
-.section_effect::before {
+.section_bg::before {
   z-index: 1;
   position: absolute;
   top: 0;
@@ -107,9 +106,8 @@ html {
   content: '';
 }
 
-.section_effect {
-  padding-top: 98px;
-  padding-bottom: 83px;
+.section_brown {
+  background-color: #b09a81;
 }
 
 .section_whatis {
@@ -320,4 +318,26 @@ html {
   margin-top: 0;
   margin-bottom: 15px;
   break-inside: avoid;
+}
+
+.text-block_white {
+  color: #fff;
+}
+
+.text-block_white .text-block__pretitle {
+  color: var(--color_light);
+}
+
+.text-block_white .text-block__description {
+  color: #fff;
+}
+
+.text-block_white .text-block__content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.text-block_white .text-block__how {
+  background-color: #fff;
+  color: var(--color_brown);
 }
