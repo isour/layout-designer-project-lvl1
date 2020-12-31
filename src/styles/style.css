@@ -18,10 +18,15 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 html {
   color: var(--color_dark);
   font-family: var(--font_main);
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 .heading {
@@ -52,6 +57,13 @@ html {
   font-size: 2.125rem;
 }
 
+.heading_h5 {
+  font-family: var(--font_main);
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
 .heading_remember {
   font-size: 3.25rem;
 }
@@ -73,12 +85,14 @@ html {
   overflow: hidden;
 }
 
-.section_distortion {
+.section_distortion,
+.section_effect {
   padding-top: 95px;
   background-color: #f5f4f0;
 }
 
-.section_distortion::before {
+.section_distortion::before,
+.section_effect::before {
   z-index: 1;
   position: absolute;
   top: 0;
@@ -91,6 +105,11 @@ html {
   background-repeat: no-repeat;
   background-position: 50% 0;
   content: '';
+}
+
+.section_effect {
+  padding-top: 98px;
+  padding-bottom: 83px;
 }
 
 .section_whatis {
@@ -210,6 +229,8 @@ html {
   height: 100%;
   background-color: var(--color_light);
   padding: 24px;
+  display: block;
+  text-decoration: none;
 }
 
 .distortion-item__digit {
@@ -233,4 +254,70 @@ html {
 .distortion-item__text {
   line-height: 1.6;
   color: var(--color_dark);
+}
+
+.text-block {
+  position: relative;
+  z-index: 2;
+}
+
+.text-block__row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text-block__media {
+  flex: 0 0 578px;
+}
+
+.text-block__img {
+  width: 100%;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.text-block__content {
+  padding-top: 2px;
+  padding-left: 30px;
+}
+
+.text-block__pretitle {
+  color: var(--color_dark2);
+  font-size: 24px;
+  font-family: var(--font_accent);
+  line-height: 1.2;
+}
+
+.text-block__header {
+  margin-bottom: 30px;
+}
+
+.text-block__description {
+  font-size: 34px;
+  line-height: 1.2;
+  color: var(--color_dark);
+  font-family: var(--font_accent);
+}
+
+.text-block__footer {
+  margin-top: 100px;
+}
+
+.text-block__how {
+  background-color: var(--color_brown);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.text-block__text {
+  column-count: 2;
+  column-gap: 30px;
+  line-height: 1.6;
+}
+
+.text-block__text p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  break-inside: avoid;
 }
