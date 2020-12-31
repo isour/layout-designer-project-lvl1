@@ -14,6 +14,10 @@
   --font_accent: 'Neucha', 'Papyrus', fantasy;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: var(--color_dark);
   font-family: var(--font_main);
@@ -24,10 +28,15 @@ html {
   font-family: var(--font_accent);
   line-height: 1.2;
   margin: 0;
+  font-weight: normal;
 }
 
 .heading__orange {
   color: var(--color_orange);
+}
+
+.heading__white {
+  color: #fff;
 }
 
 .heading_h1 {
@@ -41,6 +50,10 @@ html {
 
 .heading_h3 {
   font-size: 2.125rem;
+}
+
+.heading_remember {
+  font-size: 3.25rem;
 }
 
 .page {
@@ -92,6 +105,8 @@ html {
   position: relative;
   z-index: 1;
   background-color: var(--color_maindark);
+  padding-top: 200px;
+  padding-bottom: 80px;
 }
 
 .distortion {
@@ -174,4 +189,48 @@ html {
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid_remember {
+  margin: 0 -15px;
+}
+
+.grid_remember .grid__item {
+  padding: 0 15px;
+  flex: 0 0 33.3333%;
+  margin-bottom: 20px;
+}
+
+.distortion-item {
+  height: 100%;
+  background-color: var(--color_light);
+  padding: 24px;
+}
+
+.distortion-item__digit {
+  font-family: var(--font_accent);
+  color: var(--color_maindark);
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.distortion-item__title {
+  margin: 0;
+  color: var(--color_orange);
+  margin-bottom: 16px;
+  font-family: var(--font_accent);
+  line-height: 1.2;
+  font-size: 2.125rem;
+  font-weight: normal;
+}
+
+.distortion-item__text {
+  line-height: 1.6;
+  color: var(--color_dark);
 }
