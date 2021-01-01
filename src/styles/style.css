@@ -139,7 +139,12 @@ html {
 
 .section_subscribe {
   padding-bottom: 84px;
+  padding-top: 99px;
   text-align: left;
+}
+
+.section_subscribe .container {
+  padding: 0 15px;
 }
 
 .distortion {
@@ -376,7 +381,7 @@ html {
   background-color: var(--color_maindark);
   color: #fff;
   padding: 41px 55px;
-  padding-bottom: 44px;
+  padding-bottom: 43px;
   display: flex;
   align-items: center;
 }
@@ -387,14 +392,14 @@ html {
 
 .subscribe__content {
   flex: 0 0 50%;
-  padding-left: 16px;
+  padding-left: 15px;
   margin-top: -4px;
 }
 
 .subscribe__label {
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -407,6 +412,7 @@ html {
   font-size: 13px;
   border: none;
   padding: 17px 15px;
+  padding-bottom: 18px;
   line-height: 1.23;
 }
 
