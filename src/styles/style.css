@@ -258,7 +258,7 @@ html {
   padding: 24px;
   display: block;
   text-decoration: none;
-  transition: background .4s;
+  transition: background 0.4s;
 }
 
 .distortion-item:hover {
