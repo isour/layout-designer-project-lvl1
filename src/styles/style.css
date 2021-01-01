@@ -81,7 +81,7 @@ html {
 .container {
   width: 1140px;
   margin: 0 auto;
-  padding: 0 14px;
+  padding: 0 15px;
 }
 
 .section {
@@ -92,8 +92,8 @@ html {
 
 .section_bg {
   background-color: #f5f4f0;
-  padding-top: 98px;
-  padding-bottom: 83px;
+  padding-top: 100px;
+  padding-bottom: 85px;
 }
 
 .section_distortion {
@@ -133,8 +133,12 @@ html {
   position: relative;
   z-index: 1;
   background-color: var(--color_maindark);
-  padding-top: 200px;
+  padding-top: 201px;
   padding-bottom: 80px;
+}
+
+.section_remember .container {
+  padding: 0 15px;
 }
 
 .section_subscribe {
@@ -271,6 +275,8 @@ html {
   font-size: 4rem;
   line-height: 1;
   margin-bottom: 40px;
+  position: relative;
+  top: 1px;
 }
 
 .distortion-item__title {
@@ -309,7 +315,7 @@ html {
 
 .text-block__content {
   flex: 1 1 auto;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-left: 30px;
 }
 
@@ -321,7 +327,7 @@ html {
 }
 
 .text-block__header {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .text-block__description {
@@ -347,6 +353,24 @@ html {
   column-count: 2;
   column-gap: 30px;
   line-height: 1.6;
+}
+
+.text-block__textrow {
+  line-height: 1.6;
+  display: flex;
+}
+
+.text-block__textrow p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.text-block__col {
+  flex: 0 0 50%;
+}
+
+.text-block__col + .text-block__col {
+  padding-left: 15px;
 }
 
 .text-block__text p {
