@@ -138,7 +138,8 @@ html {
 }
 
 .section_subscribe {
-  padding-bottom: 78px;
+  padding-bottom: 77px;
+  text-align: left;
 }
 
 .distortion {
@@ -375,6 +376,7 @@ html {
   background-color: var(--color_maindark);
   color: #fff;
   padding: 41px 55px;
+  padding-bottom: 44px;
   display: flex;
   align-items: center;
 }
@@ -386,6 +388,7 @@ html {
 .subscribe__content {
   flex: 0 0 50%;
   padding-left: 16px;
+  margin-top: -4px;
 }
 
 .subscribe__label {
