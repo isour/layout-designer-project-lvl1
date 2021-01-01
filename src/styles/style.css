@@ -367,6 +367,7 @@ html {
 
 .text-block__col {
   flex: 0 0 50%;
+  padding-right: 5px;
 }
 
 .text-block__col + .text-block__col {
