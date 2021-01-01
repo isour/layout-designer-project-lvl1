@@ -252,6 +252,11 @@ html {
   padding: 24px;
   display: block;
   text-decoration: none;
+  transition: background .4s;
+}
+
+.distortion-item:hover {
+  background-color: var(--color_white2);
 }
 
 .distortion-item__digit {
