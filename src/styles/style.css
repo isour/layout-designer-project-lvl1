@@ -26,7 +26,6 @@ html {
   color: var(--color_dark);
   font-family: var(--font_main);
   line-height: 1.6;
-  scroll-behavior: smooth;
 }
 
 .heading {
