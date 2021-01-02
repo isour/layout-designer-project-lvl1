@@ -53,7 +53,7 @@ html {
   font-size: 4.5rem;
 }
 
-.heading_h2 {
+.heading_h2, h2 {
   font-size: 3.75rem;
 }
 
@@ -89,10 +89,12 @@ html {
   overflow: hidden;
 }
 
+.section h2{
+  color: var(--color_orange);
+}
+
 .section_bg {
   background-color: #f5f4f0;
-  padding-top: 100px;
-  padding-bottom: 85px;
 }
 
 .section_distortion {
@@ -123,8 +125,7 @@ html {
 .section_whatis {
   position: relative;
   z-index: 2;
-  margin-bottom: -93px;
-  padding-bottom: 0;
+  margin-bottom: -193px;
   overflow: visible;
 }
 
@@ -132,7 +133,7 @@ html {
   position: relative;
   z-index: 1;
   background-color: var(--color_maindark);
-  padding-top: 201px;
+  padding-top: 200px;
   padding-bottom: 80px;
 }
 
@@ -144,6 +145,10 @@ html {
   padding-bottom: 76px;
   padding-top: 99px;
   text-align: left;
+}
+
+.section_error {
+  padding-bottom: 117px;
 }
 
 .section_subscribe .container {
@@ -220,13 +225,14 @@ html {
 
 .whatis__header {
   text-align: center;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 }
 
 .whatis__subtitle {
   text-align: center;
   line-height: 1.6;
   color: #212529;
+  letter-spacing: -0.01px;
 }
 
 .whatis__video {
@@ -366,11 +372,13 @@ html {
 
 .text-block__col {
   flex: 0 0 50%;
-  padding-right: 5px;
+  padding-right: 9px;
+  margin-bottom: -15px;
 }
 
 .text-block__col + .text-block__col {
   padding-left: 15px;
+  padding-right: 0;
 }
 
 .text-block__text p {
