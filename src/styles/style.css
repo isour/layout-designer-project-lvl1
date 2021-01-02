@@ -53,8 +53,16 @@ html {
   font-size: 4.5rem;
 }
 
-.heading_h2, h2 {
+.heading_h2 {
   font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 3.75rem;
+  color: var(--color_orange);
+  font-family: var(--font_accent);
+  font-weight: normal;
+  margin: 0;
 }
 
 .heading_h3 {
@@ -87,10 +95,6 @@ html {
   position: relative;
   padding: 100px 10px;
   overflow: hidden;
-}
-
-.section h2{
-  color: var(--color_orange);
 }
 
 .section_bg {
@@ -302,6 +306,7 @@ html {
 .text-block {
   position: relative;
   z-index: 2;
+  color: var(--color_dark);
 }
 
 .text-block__row {
@@ -333,6 +338,10 @@ html {
 
 .text-block__header {
   margin-bottom: 29px;
+}
+
+.text-block__header h2 {
+  color: inherit;
 }
 
 .text-block__description {
