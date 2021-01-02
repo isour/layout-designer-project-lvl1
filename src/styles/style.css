@@ -342,6 +342,8 @@ h2 {
 
 .text-block__header h2 {
   color: inherit;
+  margin-top: 31px;
+  line-height: 1.2;
 }
 
 .text-block__description {
