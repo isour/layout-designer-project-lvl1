@@ -55,6 +55,7 @@ html {
 
 .heading_h2 {
   font-size: 3.75rem;
+  margin: 0;
 }
 
 h2 {
@@ -63,6 +64,8 @@ h2 {
   font-family: var(--font_accent);
   font-weight: normal;
   margin: 0;
+  margin-top: 31px;
+  line-height: 1.2;
 }
 
 .heading_h3 {
@@ -342,8 +345,6 @@ h2 {
 
 .text-block__header h2 {
   color: inherit;
-  margin-top: 31px;
-  line-height: 1.2;
 }
 
 .text-block__description {
