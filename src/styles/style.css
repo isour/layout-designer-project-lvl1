@@ -129,6 +129,10 @@ h2 {
   content: '';
 }
 
+.bg-light {
+  background-color: #F5F4F0;
+}
+
 .bg-brown {
   background-color: #b09a81;
 }
