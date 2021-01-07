@@ -209,10 +209,10 @@ h2 {
 .distortion-text {
   display: flex;
 
-  margin-bottom: 26px;
+  margin-bottom: 23px;
 
   color: var(--color-dark);
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 .distortion-col {
@@ -227,11 +227,11 @@ h2 {
   break-inside: avoid;
 
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .distortion-action {
-  padding-left: calc(50% + 14px);
+  padding-left: calc(50% + 15px);
 }
 
 .button {
