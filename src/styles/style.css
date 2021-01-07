@@ -130,11 +130,11 @@ h2 {
 }
 
 .bg-light {
-  background-color: #F5F4F0;
+  background-color: var(--color-light);
 }
 
 .bg-brown {
-  background-color: #b09a81;
+  background-color: var(--color_brown);
 }
 
 .z-2 {
