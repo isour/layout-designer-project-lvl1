@@ -209,10 +209,10 @@ h2 {
 .distortion-text {
   display: flex;
 
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 
   color: var(--color-dark);
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 .distortion-col {
