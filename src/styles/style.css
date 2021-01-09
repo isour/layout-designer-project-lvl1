@@ -194,12 +194,17 @@ h2 {
   z-index: 2;
 
   min-height: 463px;
+  margin-top: -5px;
+}
+
+.mt-4 {
+  margin-top: 4px;
 }
 
 .distortion-img {
   position: absolute;
   top: -40px;
-  right: -240px;
+  right: -269px;
   z-index: 1;
 
   width: auto;
