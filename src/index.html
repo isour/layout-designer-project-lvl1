@@ -4,60 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
+    <title>Когнитивные искажения в программировании</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
 </head>
 <body class="page">
-    <main class="page-main">
+    <main>
         <header class="section bg-light bg-img">
             <div class="container">
-                <div class="distortion">
-                    <div class="distortion-content">
-                        <div class="distortion-header">
-                            <h1 class="heading fz-45">
-                                <div class="color-orange">Когнитивные<br> искажения</div>
-                                <div class="color-black">в программировании</div>
-                            </h1>
-                        </div>
-                        <div class="distortion-media">
-                            <img src="images/main.png" alt="Когнитивные искажения в программировании" class="distortion-img" width="1155" height="560" loading="lazy">
-                        </div>
+                <div class="distortion-header">
+                    <h1 class="heading fz-45">
+                        <div class="color-orange">Когнитивные<br> искажения</div>
+                        <div class="color-black">в программировании</div>
+                    </h1>
+                </div>
+                <img src="images/main.png" alt="Когнитивные искажения в программировании" class="distortion-img" width="1155" height="560" loading="lazy">
+                <div class="distortion-text">
+                    <div class="distortion-col">
+                        <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
                     </div>
-                    <div class="distortion-footer">
-                        <div class="distortion-text">
-                            <div class="distortion-col">
-                                <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-                            </div>
-                            <div class="distortion-col">
-                                <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
-                                <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                            </div>
-                        </div>
-                        <div class="distortion-action">
-                            <a href="#navigation" class="button" title="подробнее">подробнее</a>
-                        </div>
+                    <div class="distortion-col">
+                        <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+                        <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
                     </div>
                 </div>
+                <a href="#navigation" class="button ml-half-15" title="подробнее">подробнее</a>
             </div>
         </header>
-        <section class="section z-2 mb-193 ov-visible">
+        <section class="section z-2 mb-n-193 ov-visible">
             <div class="container">
-                <div class="whatis">
-                    <div class="whatis-header">
-                        <h2 class="heading fz-375">
-                            <div class="color-black">Что же это такое,</div>
-                            <div class="color-orange">когнитивные искажения?</div>
-                        </h2>
-                    </div>
-                    <div class="whatis-subtitle">Что такое когнитивные искажения. Petrovna Channel</div>
-                    <div class="whatis-video">
-                        <iframe class="whatis-iframe" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
-                    </div>
-                </div>
+                <h2 class="heading fz-375 ta-center mb-30">
+                    <div class="color-black">Что же это такое,</div>
+                    <div class="color-orange">когнитивные искажения?</div>
+                </h2>
+                <div class="whatis-subtitle">Что такое когнитивные искажения. Petrovna Channel</div>
+                <iframe class="whatis-iframe" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
             </div>
         </section>
         <section class="section bg-dark pb-80 pt-200" id="navigation">
@@ -111,28 +94,20 @@
             <div class="container">
                 <div class="text-block">
                     <div class="text-block-row">
-                        <div class="text-block-media">
-                            <img src="images/1.png" alt="Эффект ИКЕА" class="text-block-img" loading="lazy">
-                        </div>
-                        <div class="text-block-content">
-                            <div class="text-block-pretitle">Когнитивные искажения</div>
-                            <div class="text-block-header">
-                                <h2 class="heading fz-375">Эффект ИКЕА</h2>
-                            </div>
-                            <div class="text-block-description">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</div>
+                        <img src="images/1.png" alt="Эффект ИКЕА" class="text-block-img" loading="lazy">
+                        <div class="text-block-content pl-30">
+                            <div class="text-block-pretitle color-dark2">Когнитивные искажения</div>
+                            <h2 class="heading fz-375 mb-29">Эффект ИКЕА</h2>
+                            <div class="text-block-description color-dark">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</div>
                         </div>
                     </div>
-                    <div class="text-block-footer">
-                        <div class="text-block-how">
-                            <h5 class="heading fw-bold fz-0875 ff-main lh-12">Как проявляется</h5>
+                    <h5 class="heading-h5 color-white bg-brown">Как проявляется</h5>
+                    <div class="text-block-textrow">
+                        <div class="text-block-col">
+                            <p>Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
                         </div>
-                        <div class="text-block-textrow">
-                            <div class="text-block-col">
-                                <p>Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
-                            </div>
-                            <div class="text-block-col">
-                                <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
-                            </div>
+                        <div class="text-block-col">
+                            <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
                         </div>
                     </div>
                 </div>
@@ -144,26 +119,18 @@
                     <div class="text-block-row">
                         <div class="text-block-content pr-30 pb-0">
                             <div class="text-block-pretitle color-white2">Когнитивные искажения</div>
-                            <div class="text-block-header">
-                                <h2 class="heading fz-375">Преждевременная оптимизация</h2>
-                            </div>
+                            <h2 class="heading fz-375 mb-29 color-white">Преждевременная оптимизация</h2>
                             <div class="text-block-description color-white">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</div>
                         </div>
-                        <div class="text-block-media">
-                            <img src="images/2.png" alt="Преждевременная оптимизация" class="text-block-img" loading="lazy">
-                        </div>
+                        <img src="images/2.png" alt="Преждевременная оптимизация" class="text-block-img" loading="lazy">
                     </div>
-                    <div class="text-block-footer">
-                        <div class="text-block-how bg-white color-brown">
-                            <h5 class="heading fw-bold fz-0875 ff-main lh-12">Как проявляется</h5>
+                    <h5 class="heading-h5 bg-white color-brown">Как проявляется</h5>
+                    <div class="text-block-textrow">
+                        <div class="text-block-col">
+                            <p>Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
                         </div>
-                        <div class="text-block-textrow">
-                            <div class="text-block-col">
-                                <p>Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
-                            </div>
-                            <div class="text-block-col">
-                                <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
-                            </div>
+                        <div class="text-block-col">
+                            <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
                         </div>
                     </div>
                 </div>
@@ -173,28 +140,20 @@
             <div class="container">
                 <div class="text-block">
                     <div class="text-block-row">
-                        <div class="text-block-media">
-                            <img src="images/3.png" alt="Искажение новизны" class="text-block-img" loading="lazy">
-                        </div>
-                        <div class="text-block-content">
-                            <div class="text-block-pretitle">Когнитивные искажения</div>
-                            <div class="text-block-header">
-                                <h2 class="heading fz-375">Искажение новизны</h2>
-                            </div>
-                            <div class="text-block-description">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</div>
+                        <img src="images/3.png" alt="Искажение новизны" class="text-block-img" loading="lazy">
+                        <div class="text-block-content pl-30">
+                            <div class="text-block-pretitle color-dark2">Когнитивные искажения</div>
+                            <h2 class="heading fz-375 mb-29">Искажение новизны</h2>
+                            <div class="text-block-description color-dark">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</div>
                         </div>
                     </div>
-                    <div class="text-block-footer">
-                        <div class="text-block-how">
-                            <h5 class="heading fw-bold fz-0875 ff-main lh-12">Как проявляется</h5>
+                    <h5 class="heading-h5 color-white bg-brown">Как проявляется</h5>
+                    <div class="text-block-textrow">
+                        <div class="text-block-col">
+                            <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
                         </div>
-                        <div class="text-block-textrow">
-                            <div class="text-block-col">
-                                <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
-                            </div>
-                            <div class="text-block-col">
-                                <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
-                            </div>
+                        <div class="text-block-col">
+                            <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
                         </div>
                     </div>
                 </div>
@@ -206,26 +165,18 @@
                     <div class="text-block-row">
                         <div class="text-block-content pr-30 pb-0">
                             <div class="text-block-pretitle color-white2">Когнитивные искажения</div>
-                            <div class="text-block-header">
-                                <h2 class="heading fz-375">Гиперболическое обесценивание</h2>
-                            </div>
+                            <h2 class="heading fz-375 mb-29 color-white">Гиперболическое обесценивание</h2>
                             <div class="text-block-description color-white">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</div>
                         </div>
-                        <div class="text-block-media">
-                            <img src="images/4.png" alt="Гиперболическое обесценивание" class="text-block-img" loading="lazy">
-                        </div>
+                        <img src="images/4.png" alt="Гиперболическое обесценивание" class="text-block-img" loading="lazy">
                     </div>
-                    <div class="text-block-footer">
-                        <div class="text-block-how bg-white color-brown">
-                            <h5 class="heading fw-bold fz-0875 ff-main lh-12">Как проявляется</h5>
+                    <h5 class="heading-h5 color-brown bg-white">Как проявляется</h5>
+                    <div class="text-block-textrow">
+                        <div class="text-block-col">
+                            <p>Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
                         </div>
-                        <div class="text-block-textrow">
-                            <div class="text-block-col">
-                                <p>Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
-                            </div>
-                            <div class="text-block-col">
-                                <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
-                            </div>
+                        <div class="text-block-col">
+                            <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
                         </div>
                     </div>
                 </div>
@@ -235,57 +186,45 @@
             <div class="container">
                 <div class="text-block">
                     <div class="text-block-row">
-                        <div class="text-block-media">
-                            <img src="images/5.png" alt="Когнитивные искажения" class="text-block-img" loading="lazy">
-                        </div>
-                        <div class="text-block-content">
-                            <div class="text-block-pretitle">Когнитивные искажения</div>
-                            <div class="text-block-header">
-                                <h2 class="heading fz-375">Ошибка планирования</h2>
-                            </div>
-                            <div class="text-block-description">Неправильно рассчитывать время необходимое для завершения задачи.</div>
+                        <img src="images/5.png" alt="Когнитивные искажения" class="text-block-img" loading="lazy">
+                        <div class="text-block-content pl-30">
+                            <div class="text-block-pretitle color-dark2">Когнитивные искажения</div>
+                            <h2 class="heading fz-375 mb-29">Ошибка планирования</h2>
+                            <div class="text-block-description color-dark">Неправильно рассчитывать время необходимое для завершения задачи.</div>
                         </div>
                     </div>
-                    <div class="text-block-footer">
-                        <div class="text-block-how">
-                            <h5 class="heading fw-bold fz-0875 ff-main lh-12">Как проявляется</h5>
+                    <h5 class="heading-h5 color-white bg-brown">Как проявляется</h5>
+                    <div class="text-block-textrow">
+                        <div class="text-block-col">
+                            <p>Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
                         </div>
-                        <div class="text-block-textrow">
-                            <div class="text-block-col">
-                                <p>Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
-                            </div>
-                            <div class="text-block-col">
-                                <p>Это отлично выражается в старом афоризме:</p>
-                                <p>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
-                            </div>
+                        <div class="text-block-col">
+                            <p>Это отлично выражается в старом афоризме:</p>
+                            <p>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer page-footer">
-        <section class="section pt-99 pb-76 ta-left">
-            <div class="container">
-                <form class="subscribe" action="#">
-                    <div class="subscribe-header">
-                        <h3 class="heading fz-2125">Хотите узнать больше?<br> Подпишитесь на обновления</h3>
+    <footer class="fz-0875 pb-116 lh-16">
+        <section class="section pt-99 pb-76">
+            <form class="container subscribe" action="#">
+                <h3 class="heading fz-2125 f-0-0-50 color-white">Хотите узнать больше?<br> Подпишитесь на обновления</h3>
+                <div class="subscribe-content">
+                    <label for="subscribe-email" class="subscribe-label">Электронная почта</label>
+                    <div class="subscribe-row">
+                        <input type="email" class="subscribe-input" placeholder="Ваша электронная почта" id="subscribe-email">
+                        <button class="subscribe-button" type="button"></button>
                     </div>
-                    <div class="subscribe-content">
-                        <label for="subscribe-email" class="subscribe-label">Электронная почта</label>
-                        <div class="subscribe-row">
-                            <input type="email" class="subscribe-input" placeholder="Ваша электронная почта" id="subscribe-email">
-                            <button class="subscribe-button" type="button"></button>
-                        </div>
-                        <div class="subscribe-description">Подписываясь, вы принимаете <a class="subscribe-link" href="#" title="Правила сервиса">правила сервиса</a></div>
-                    </div>
-                </form>
-            </div>
+                    <div class="subscribe-description">Подписываясь, вы принимаете <a class="subscribe-link" href="#" title="Правила сервиса">правила сервиса</a></div>
+                </div>
+            </form>
         </section>
-        <div class="container">
-            <div class="footer-copyright">© 2020 Константин Константинопольский</div>
-            <div class="footer-based">По материалам статьи Yash Ranadive <a class="footer-link" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="-blank" title="Cognitive Biases in Programming">Cognitive Biases in Programming</a></div>
-            <div class="footer-author"><a href="https://ru.hexlet.io/" target="-blank" class="footer-link" title="Курсы программирования Hexlet">Курсы программирования Hexlet</a></div>
+        <div class="container ta-center">
+            <p class="mt-0 mb-17">© 2020 Константин Константинопольский</p>
+            <p class="mt-0 mb-17">По материалам статьи Yash Ranadive <a class="footer-link" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="-blank" title="Cognitive Biases in Programming">Cognitive Biases in Programming</a></p>
+            <a href="https://ru.hexlet.io/" target="-blank" class="footer-link" title="Курсы программирования Hexlet">Курсы программирования Hexlet</a>
         </div>
     </footer>
 </body>
